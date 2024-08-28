@@ -24,35 +24,35 @@ TipoInstalacao = str(input("Digite o tipo de instalação (R para Residencial|I 
 if kWhConsumido <= 500 and TipoInstalacao == "R":
     #Será realizado o calculo do consumo de kWh.
     Consumo = kWhConsumido * 0.40
-    #Será impresso na tela na o preço a pagar pelo consumo.
+    #Será impresso na tela o preço a pagar pelo consumo.
     print(f"O seu consumo foi de {Consumo:5.2f}kWh.")
 #Se a quantidade de kWh for maior do que 500 e o tipo de instalação for igual a R(Residêncial), irá ser feito um calculo do consumo.
 elif kWhConsumido > 500 and TipoInstalacao == "R":
     #Será realizado o calculo do consumo de kWh.
     Consumo = kWhConsumido * 0.65
-    #Será impresso na tela na o preço a pagar pelo consumo.
+    #Será impresso na tela o preço a pagar pelo consumo.
     print(f"O seu consumo foi de {Consumo:5.2f}kWh.")
 #Se a quantidade de kWh for menor ou igual a 1000 e o tipo de instalação for igual a C(Comercial), irá ser feito um calculo do consumo.
 elif kWhConsumido <= 1000 and TipoInstalacao == "C":
     #Será realizado o calculo do consumo de kWh.
     Consumo = kWhConsumido * 0.55
-    #Será impresso na tela na o preço a pagar pelo consumo.
+    #Será impresso na tela o preço a pagar pelo consumo.
     print(f"O seu consumo foi de {Consumo:5.2f}kWh.")
 #Se a quantidade de kWh for maior do que 1000 e o tipo de instalação for igual a C(Comercial), irá ser feito um calculo do consumo.
 elif kWhConsumido > 1000 and TipoInstalacao == "C":
     #Será realizado o calculo do consumo de kWh.
     Consumo = kWhConsumido * 0.60
-    #Será impresso na tela na o preço a pagar pelo consumo.
+    #Será impresso na tela o preço a pagar pelo consumo.
     print(f"O seu consumo foi de {Consumo:5.2f}kWh.")
 #Se a quantidade de kWh for menor ou igual a 5000 e o tipo de instalação for igual a I(Industrial), irá ser feito um calculo do consumo.
 elif kWhConsumido <= 5000 and TipoInstalacao == "I":
     #Será realizado o calculo do consumo de kWh.
     Consumo = kWhConsumido * 0.55
-    #Será impresso na tela na o preço a pagar pelo consumo.
+    #Será impresso na tela o preço a pagar pelo consumo.
     print(f"O seu consumo foi de {Consumo:5.2f}kWh.")
 #Se a quantidade de kWh for maior do que 5000 e o tipo de instalação for igual a I(Industrial), irá ser feito um calculo do consumo.
 elif kWhConsumido > 5000 and TipoInstalacao == "I":
     #Será realizado o calculo do consumo de kWh.
     Consumo = kWhConsumido * 0.60
-    #Será impresso na tela na o preço a pagar pelo consumo.
+    #Será impresso na tela o preço a pagar pelo consumo.
     print(f"O seu consumo foi de {Consumo:5.2f}kWh.")
