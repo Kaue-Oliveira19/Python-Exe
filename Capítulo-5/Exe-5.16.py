@@ -8,9 +8,7 @@
 valor = int(input("Digite o valor a pagar: "))
 #Variável onde será armazenada a quantidade de cédulas.
 cedulas = 0
-#
 atual = 50
-#
 apagar = valor
 
 #Enquanto a condição for verdadeira, o laço While será rodado.
